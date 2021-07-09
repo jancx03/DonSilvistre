@@ -1,3 +1,5 @@
 <template>
-  <BaseButton mode="outline" label="Hello World!"/>
+  <div>
+    <TheModal />
+  </div>
 </template>
