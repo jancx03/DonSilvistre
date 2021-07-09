@@ -7,6 +7,15 @@ import TheIndex from '/src/pages/TheIndex.vue'
 </script>
 
 <style>
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

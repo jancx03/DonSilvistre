@@ -8,8 +8,6 @@
 </template>
 
 <script setup>
-import { defineProps } from 'vue';
-
 const { link, to, toObject, mode, label } = defineProps({
   link: {
     type: Boolean,
