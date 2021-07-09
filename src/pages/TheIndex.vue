@@ -1,3 +1,3 @@
 <template>
-  <h1>Hello World</h1>
+  <BaseButton mode="outline" label="Hello World!"/>
 </template>
