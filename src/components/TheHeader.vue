@@ -34,7 +34,7 @@ header {
   align-items: center;
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 768px) {
   .nav-items {
     display: none;
   }
