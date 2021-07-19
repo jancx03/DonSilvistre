@@ -3,15 +3,16 @@
     <div class="navbar">
       <h1>LOGO</h1>
       <div class="nav-items">
-        <BaseButton mode="flat" label="link" />
-        <BaseButton mode="flat" label="link" />
-        <BaseButton mode="flat" label="link" />
-        <BaseButton mode="flat" label="link" />
+        <BaseButton mode="flat" label="Home" />
+        <BaseButton mode="flat" label="Face" />
+        <BaseButton mode="flat" label="Body" />
+        <BaseButton mode="flat" label="About" />
       </div>
       <div>
         <FontAwsomeIcon class="icon" icon="search" />
         <FontAwsomeIcon class="icon" icon="user" />
         <FontAwsomeIcon class="icon" icon="shopping-cart"/>
+        <FontAwsomeIcon class="menu-icon icon" icon="bars" />
       </div>
     </div>
   </header>
@@ -19,9 +20,9 @@
 
 <script setup>
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faShoppingCart, faUser, faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faShoppingCart, faUser, faSearch, faBars } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faShoppingCart, faUser, faSearch);
+library.add(faShoppingCart, faUser, faSearch, faBars);
 </script>
 
 <style scoped>
@@ -42,15 +43,22 @@ header {
 }
 
 .icon {
-  font-size: 2rem;
-  color: grey;
+  font-size: 1.6rem;
+  color: black;
   font-weight: 100;
   margin-right: 2rem;
+}
+
+.menu-icon {
+  display: none;
 }
 
 @media all and (max-width: 768px) {
   .nav-items {
     display: none;
+  }
+  .menu-icon {
+    display: inline-block;
   }
  }
 </style>
