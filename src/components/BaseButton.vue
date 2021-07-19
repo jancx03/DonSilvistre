@@ -1,9 +1,13 @@
 <template>
   <button v-if="!link" :class="mode">
-    {{label}}
+    <slot>
+      <span class="label">{{label}}</span>
+    </slot>
   </button>
   <router-link v-else :to="to || toObject" :class="mode">
-    {{label}}
+    <slot>
+      {{label}}
+    </slot>
   </router-link>
 </template>
 
@@ -41,14 +45,12 @@ const { link, to, toObject, mode, label } = defineProps({
 button,
 a {
   text-decoration: none;
-  padding: 0.75rem 1.5rem;
   font: inherit;
   background-color: #3a0061;
   border: 1px solid #3a0061;
   color: white;
   cursor: pointer;
   border-radius: .2rem;
-  margin-right: 0.5rem;
   display: inline-block;
   font-size: 1.2rem;
 }
@@ -84,5 +86,10 @@ a {
 .clear:hover,
 .clear:active {
   background-color: rgba(255, 255, 255, 0.5);
+}
+
+.label {
+  margin-right: 0.5rem;
+  padding: 0.75rem 1.5rem;
 }
 </style>
