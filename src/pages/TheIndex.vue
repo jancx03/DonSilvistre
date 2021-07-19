@@ -1,7 +1,11 @@
 <template>
   <TheHeader />
-  <TheModal />
-  <TheTestimonials />
+  <div>
+    <TheModal />
+  </div>
+  <div>
+    <TheTestimonials />
+  </div>
 </template>
 
 <script setup>
