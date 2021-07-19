@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="navbar">
-      <h1>LOGO</h1>
+      <p class="logo">don silvestre</p>
       <div class="nav-items">
         <BaseButton mode="flat" label="Home" />
         <BaseButton mode="flat" label="Face" />
@@ -51,6 +51,19 @@ header {
 
 .menu-icon {
   display: none;
+}
+
+.logo {
+  font-family: 'Tangerine', cursive;
+  font-size: 5rem;
+  margin-left: 2rem;
+  color: black;
+}
+
+@font-face {
+  font-family: "Tangerine";
+  src: local("Tangerine"),
+   url(/src/assets/Tangerine-Regular.ttf) format("truetype");
 }
 
 @media all and (max-width: 768px) {

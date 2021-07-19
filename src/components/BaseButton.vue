@@ -1,9 +1,9 @@
 <template>
   <button v-if="!link" :class="mode">
-    {{label}}
+    {{label}} || <slot></slot>
   </button>
   <router-link v-else :to="to || toObject" :class="mode">
-    {{label}}
+    {{label}} || <slot></slot>
   </router-link>
 </template>
 
