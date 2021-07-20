@@ -5,7 +5,7 @@ import BaseButton from '/src/components/BaseButton.vue';
 import TheModal from '/src/components/TheModal.vue';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import TheTestimonials from '/src/components/TheTestimonials.vue';
-
+import BaseGrid from '/src/components/BaseGrid.vue';
 const app = createApp(App);
 
 app.use(router);
@@ -14,4 +14,5 @@ app.component('BaseButton', BaseButton);
 app.component('TheModal', TheModal);
 app.component('FontAwsomeIcon', FontAwesomeIcon);
 app.component('TheTestimonials', TheTestimonials);
+app.component('BaseGrid', BaseGrid);
 app.mount('#app');
