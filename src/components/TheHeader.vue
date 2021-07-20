@@ -46,14 +46,11 @@ library.add(faShoppingCart, faUser, faSearch, faBars);
 </script>
 
 <style scoped>
-header {
-  margin-bottom: 7rem;
-}
-
 .navbar {
   width: 100%;
   height: 7rem;
-  position: fixed;
+  position: relative;
+  top: 0;
   background-color: white;
   top: 0;
   display: flex;
