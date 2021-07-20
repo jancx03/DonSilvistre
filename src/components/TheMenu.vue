@@ -12,7 +12,7 @@
 import menuItems from '/src/menuItems';
 </script>
 
-<style>
+<style scoped>
 .menu {
   width: 100%;
   display: none;

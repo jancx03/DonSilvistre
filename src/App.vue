@@ -4,12 +4,14 @@
   <TheMenu style="z-index: 1;" key="menu" v-if="displayMenu"/>
   </transition>
   <router-view key="view" ></router-view>
+  <TheFooter />
 </template>
 
 <script setup>
 import { ref } from 'vue';
 import TheHeader from '/src/components/TheHeader.vue'
 import TheMenu from '/src/components/TheMenu.vue'
+import TheFooter from '/src/components/TheFooter.vue'
 
 const displayMenu = ref(false);
 

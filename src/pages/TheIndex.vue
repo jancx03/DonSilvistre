@@ -16,7 +16,7 @@ import TheModal from "/src/components/TheModal.vue";
 import TheTestimonials from "/src/components/TheTestimonials.vue";
 import BaseGrid from "/src/components/BaseGrid.vue";
 </script>
-<style>
+<style scoped>
 .middle {
   padding-bottom: 55px;
 }
