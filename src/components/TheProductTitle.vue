@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>TESTIMONIALS</h2>
+    <h2>New Products</h2>
   </div>
 </template>
 
