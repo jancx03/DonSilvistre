@@ -1,11 +1,15 @@
 <template>
-  <div class="container">
-    <div class="image"></div>
-    <div class="image"></div>
-    <div class="image"></div>
-    <div class="image"></div>
-    <div class="image"></div>
-  </div>
+  <section class="products">
+    <div class="product-card">
+      <div class="product-image">
+        <img src="/src/assets/img/soap.jpg" />
+      </div>
+      <div class="product-info">
+        <h5>Jabon Don Selvatico</h5>
+        <h6>$22.28 USD</h6>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
@@ -13,17 +17,26 @@ export default {};
 </script>
 
 <style scoped>
-.container {
-  grid-template-columns: 100px 50px 100px;
-  grid-template-rows: 80px auto 80px;
-  justify-items: center;
-  column-gap: 10px;
-  row-gap: 15px;
+.products {
+  display: flex;
+  flex-wrap: wrap;
 }
-.image {
-  position: relative;
-  background-image: url("https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
-  width: 240px;
-  height: 120px;
+.product-card {
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+
+  display: flex; /* so child elements can use flexbox */
+}
+.product-image img {
+  max-width: 100%;
+}
+.product-info {
+  margin-top: auto;
+}
+@media (max-width: 920px) {
+  .product-card {
+    flex: 1 21%;
+  }
 }
 </style>
