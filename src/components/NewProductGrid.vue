@@ -19,24 +19,24 @@ export default {};
 <style scoped>
 .products {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
-.product-card {
+/* .product-card {
   padding: 2%;
   flex-grow: 1;
   flex-basis: 16%;
 
-  display: flex; /* so child elements can use flexbox */
-}
+  display: flex; so child elements can use flexbox */
+/* } */
 .product-image img {
-  max-width: 100%;
+  max-width: 80%;
 }
-.product-info {
+/* .product-info {
   margin-top: auto;
-}
-@media (max-width: 920px) {
+} */
+/* @media (max-width: 920px) {
   .product-card {
     flex: 1 21%;
   }
-}
+} */
 </style>
