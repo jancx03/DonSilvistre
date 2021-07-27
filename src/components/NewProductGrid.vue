@@ -30,4 +30,16 @@ export default {};
 .image {
   width: 15rem;
 }
+
+@media all and (max-width: 920px) {
+  .image {
+    width: 10rem;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .image {
+    widows: 5rem;
+  }
+}
 </style>
