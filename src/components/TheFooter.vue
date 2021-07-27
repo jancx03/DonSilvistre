@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer class="content-footer">
     <SideButtonInput />
     <div class="icons-flex">
       <FontAwsomeIcon :icon="['fab', 'instagram']" class="instacon" />
@@ -36,6 +36,10 @@ const year = ref(date.getFullYear());
 </script>
 
 <style scoped>
+.content-footer {
+  margin: 6.3rem;
+  padding: 3.44rem;
+}
 .icons-flex {
   display: flex;
   justify-content: space-between;

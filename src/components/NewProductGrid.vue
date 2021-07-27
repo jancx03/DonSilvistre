@@ -2,7 +2,7 @@
   <section class="products">
     <div class="product-card" v-for="items in 5" :key="items">
       <div class="product-image">
-        <img src="/src/assets/img/soap.jpg" />
+        <img class="image" src="/src/assets/img/soap.jpg" />
       </div>
       <div class="product-info">
         <h5>Jabon Don Selvatico</h5>
@@ -20,25 +20,14 @@ export default {};
 .products {
   display: flex;
   flex-direction: row;
+  margin: 6.3rem;
+  padding: 3.44rem;
+  justify-content: space-between;
+  align-items: center;
   /* flex-wrap: wrap; */
 }
 
-/* .product-card {
-  padding: 2%;
-  flex-grow: 1;
-  flex-basis: 16%;
-
-  display: flex; so child elements can use flexbox */
-/* } */
-.product-image img {
-  max-width: 80%;
+.image {
+  width: 15rem;
 }
-/* .product-info {
-  margin-top: auto;
-} */
-/* @media (max-width: 920px) {
-  .product-card {
-    flex: 1 21%;
-  }
-} */
 </style>
