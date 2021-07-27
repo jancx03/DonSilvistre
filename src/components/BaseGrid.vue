@@ -1,20 +1,16 @@
 <template>
   <div class="container">
     <div class="red">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo eos
-      amet, debitis non cum officiis placeat temporibus est impedit nam quidem
-      velit nobis esse aliquam. Ullam sit esse atque quidem?
+      <p>Best body oil, love the fragrance, very hydrating and calming.</p>
     </div>
     <div class="blue">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ullam iste
-      est consequuntur ipsam eius commodi, accusantium magnam doloremque cumque
-      voluptas perspiciatis vero incidunt quas necessitatibus impedit deserunt
-      at maxime.
+      <p>
+        Best body lotion! Absorbs fast and leaves skin feeling soft and
+        hidrated. Plus smells AMAZING!
+      </p>
     </div>
     <div class="green">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, illum, vel
-      dolorem deserunt ullam blanditiis id fuga distinctio obcaecati totam, sint
-      optio doloremque hic recusandae minima autem consequuntur tenetur iusto.
+      <p>My skin loves it, so gentle, effective and oh so natural 💚</p>
     </div>
   </div>
 </template>
@@ -26,14 +22,14 @@ export default {};
 <style scoped>
 .container {
   display: flex;
+  padding-left: 55px;
+  padding-right: 55px;
 }
-.red {
-  /* background-color: red; */
-}
-.blue {
-  /* background-color: blue; */
-}
-.green {
-  /* background-color: green; */
+p {
+  color: #788188;
+  margin: 0 0 19.44444px;
+  font-size: 1.10938em;
+  font-weight: 400;
+  font-style: normal;
 }
 </style>
