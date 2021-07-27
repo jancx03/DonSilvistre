@@ -20,8 +20,8 @@ export default {};
 .products {
   display: flex;
   flex-direction: row;
-  margin: 6.3rem;
-  padding: 3.44rem;
+  margin: 7%;
+  padding: 2%;
   justify-content: space-between;
   align-items: center;
   /* flex-wrap: wrap; */
@@ -29,17 +29,5 @@ export default {};
 
 .image {
   width: 15rem;
-}
-
-@media all and (max-width: 920px) {
-  .image {
-    width: 10rem;
-  }
-}
-
-@media all and (max-width: 480px) {
-  .image {
-    widows: 5rem;
-  }
 }
 </style>
