@@ -13,9 +13,6 @@
   </div>
   <div>
     <NewProductGrid />
-    <NewProductGrid />
-    <NewProductGrid />
-    <NewProductGrid />
   </div>
 </template>
 

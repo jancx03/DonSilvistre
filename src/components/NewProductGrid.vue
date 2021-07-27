@@ -1,6 +1,6 @@
 <template>
   <section class="products">
-    <div class="product-card">
+    <div class="product-card" v-for="items in 5" :key="items">
       <div class="product-image">
         <img src="/src/assets/img/soap.jpg" />
       </div>
@@ -19,6 +19,7 @@ export default {};
 <style scoped>
 .products {
   display: flex;
+  flex-direction: row;
   /* flex-wrap: wrap; */
 }
 /* .product-card {
