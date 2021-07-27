@@ -21,6 +21,7 @@ export default {};
   display: flex;
   /* flex-wrap: wrap; */
 }
+
 /* .product-card {
   padding: 2%;
   flex-grow: 1;
