@@ -19,7 +19,6 @@ import products from '/src/mockProducts.js'
   text-align: center;
   grid-column-gap: 3rem;
   grid-row-gap: 1rem;
-  
 }
 
 .product {

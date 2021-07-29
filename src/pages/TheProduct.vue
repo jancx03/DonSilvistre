@@ -1,9 +1,9 @@
 <template>
   <div class="product">
-    <div class="image">
-      <img src="/src/assets/img/soap.jpg" alt="" />
+    <div class="image-container">
+      <img class="image" src="/src/assets/img/soap.jpg" alt="image" />
     </div>
-    <div>
+    <div class="description">
       <h1>Niacinamide Serum</h1>
       <div>
         <p>
@@ -64,11 +64,23 @@ const { link, to } = defineProps({
 
 <style>
 .product {
-  display: flex;
-  justify-content: start;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-flow: row nowrap;
+  flex-basis: auto;
+  flex: 1 2;
+
 }
 .image {
-  width: 20%;
-  height: 40%;
+  max-width: 100%;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.description {
+  flex: 1;
 }
 </style>
