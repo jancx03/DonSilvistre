@@ -1,7 +1,52 @@
 export default [
   {
-    name: '',
-    price: 0,
-    image: ''
-  }
+    name: 'Jabon Lima',
+    price: 28.45,
+    image: '/src/assets/img/soap.jpg'
+  },
+  {
+    name: 'Jabon Lima',
+    price: 28.45,
+    image: '/src/assets/img/soap.jpg'
+  },
+  {
+    name: 'Jabon Lima',
+    price: 28.45,
+    image: '/src/assets/img/soap.jpg'
+  },
+  {
+    name: 'Jabon Lima',
+    price: 28.45,
+    image: '/src/assets/img/soap.jpg'
+  },
+  {
+    name: 'Jabon Lima',
+    price: 28.45,
+    image: '/src/assets/img/soap.jpg'
+  },
+  {
+    name: 'Jabon Lima',
+    price: 28.45,
+    image: '/src/assets/img/soap.jpg'
+  },
+  {
+    name: 'Jabon Lima',
+    price: 28.45,
+    image: '/src/assets/img/soap.jpg'
+  },
+  {
+    name: 'Jabon Lima',
+    price: 28.45,
+    image: '/src/assets/img/soap.jpg'
+  },
+  {
+    name: 'Jabon Lima',
+    price: 28.45,
+    image: '/src/assets/img/soap.jpg'
+  },
+  {
+    name: 'Jabon Lima',
+    price: 28.45,
+    image: '/src/assets/img/soap.jpg'
+  },
 ]

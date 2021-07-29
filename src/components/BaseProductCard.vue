@@ -1,12 +1,8 @@
 <template>
-  <div class="product-card">
-    <div class="product-image">
-      <img class="image" :src="image" />
-    </div>
-    <div class="product-info">
-      <h5>{{ name }}</h5>
-      <h6>${{price}} USD</h6>
-    </div>
+  <div>
+    <img class="image" :src="image" alt="image" />
+    <p class="name">{{ name }}</p>
+    <p class="price">${{price}} USD</p>
   </div>
 </template>
 
@@ -34,6 +30,17 @@ const { name, price, image } = defineProps({
 
 <style scoped>
 .image {
-  width: 15rem;
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.price {
+  color: grey;
+  font-size: 1.2rem;
 }
 </style>

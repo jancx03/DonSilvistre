@@ -37,8 +37,8 @@ const year = ref(date.getFullYear());
 
 <style scoped>
 .content-footer {
-  margin: 7%;
-  padding: 2%;
+  margin: 0 7%;
+  padding: 0 2%;
 }
 .icons-flex {
   display: flex;
