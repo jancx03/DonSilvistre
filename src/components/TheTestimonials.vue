@@ -19,5 +19,6 @@ h2 {
   font-weight: 400;
   line-height: 1.2;
   overflow-wrap: break-word;
+  text-align: center;
 }
 </style>
