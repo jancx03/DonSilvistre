@@ -1,19 +1,11 @@
 <template>
   <section class="products">
-    <div class="product-card" v-for="items in 5" :key="items">
-      <div class="product-image">
-        <img class="image" src="/src/assets/img/soap.jpg" />
-      </div>
-      <div class="product-info">
-        <h5>Jabon Don Selvatico</h5>
-        <h6>$22.28 USD</h6>
-      </div>
-    </div>
+    <BaseProductCard  />
   </section>
 </template>
 
 <script>
-export default {};
+import products from '/src/mockProducts.js'
 </script>
 
 <style scoped>
@@ -25,9 +17,5 @@ export default {};
   justify-content: space-between;
   align-items: center;
   /* flex-wrap: wrap; */
-}
-
-.image {
-  width: 15rem;
 }
 </style>
