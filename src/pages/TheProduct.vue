@@ -1,76 +1,49 @@
 <template>
-  <section>
-    <img src="" alt="" />
-    <h1>Nianinamide Serum</h1>
-    <div>$22.28 USD</div>
-    <button>ADD TO CART</button>
-    <div>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum sit nemo
-        hic nisi odit fugiat sequi itaque velit fugit debitis, ea, magni
-        expedita ratione doloribus? Eaque earum cumque molestias tempora.
-        Adipisci voluptatum minima dolores sint cupiditate, quidem expedita.
-        Ipsum necessitatibus sunt id ullam ratione quaerat, sit provident qui
-        amet, neque eveniet omnis ea beatae rerum architecto voluptas ducimus!
-        Quia, ea. Deserunt nihil minima sequi ducimus tempora eos voluptate,
-        dolorem voluptas? Earum et error cumque, hic impedit, officiis
-        blanditiis aut asperiores quam modi accusantium, beatae officia culpa
-        doloribus animi odit nesciunt? Debitis error et ipsum, eos neque minus
-        odio id officia quo perferendis architecto cumque ipsam fuga vero eum ex
-        quaerat incidunt accusamus nulla beatae. Mollitia voluptatibus quas
-        numquam optio enim! Quos beatae omnis autem adipisci porro neque
-        perspiciatis praesentium cumque dolorum ad reiciendis quibusdam, iusto
-        tempore alias molestiae maxime optio debitis perferendis? Quia obcaecati
-        ipsum, dolor atque iusto esse eius.
-      </p>
-
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut molestias
-        a reprehenderit eveniet. Hic ea molestias nam. Iure iusto optio fugit.
-        Vel, ducimus laboriosam! Exercitationem ab beatae natus iste facilis.
-        Sit optio ut earum laudantium alias eius, facere, est expedita debitis
-        ratione officia temporibus. Deleniti nam tenetur labore fugit voluptatem
-        dolores, doloremque corrupti maiores quod doloribus. Distinctio, ratione
-        rerum. Itaque! Totam aliquid in sunt labore, rem magnam laboriosam esse
-        ipsam nihil quam dolorum eaque recusandae officiis iusto consequuntur
-        ullam dolor. Expedita nobis temporibus harum enim quibusdam voluptatum
-        exercitationem deleniti reprehenderit.
-      </p>
-
-      <ul>
-        <li>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est ullam
-          velit quidem explicabo quo quasi quos quis? Est, natus! Dolorem enim
-          inventore unde voluptatibus similique odit nisi quia doloribus porro!
-        </li>
-        <li>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est ullam
-          velit quidem explicabo quo quasi quos quis? Est, natus! Dolorem enim
-          inventore unde voluptatibus similique odit nisi quia doloribus porro!
-        </li>
-        <li>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est ullam
-          velit quidem explicabo quo quasi quos quis? Est, natus! Dolorem enim
-          inventore unde voluptatibus similique odit nisi quia doloribus porro!
-        </li>
-        <li>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est ullam
-          velit quidem explicabo quo quasi quos quis? Est, natus! Dolorem enim
-          inventore unde voluptatibus similique odit nisi quia doloribus porro!
-        </li>
-        <div>Ingredients:</div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
-          inventore? Magni consequuntur aperiam reprehenderit ipsam placeat et
-          tempore, eveniet architecto aspernatur quod dolores officiis non aut!
-          Officia est eveniet consequuntur.*4
-        </p>
-      </ul>
+  <div class="product">
+    <div class="image">
+      <img src="/src/assets/img/soap.jpg" alt="" />
     </div>
-    <button>Share</button>
-    <button>Tweet</button>
-    <button>PIN IT</button>
-  </section>
+    <div>
+      <h1>Niacinamide Serum</h1>
+      <div>
+        <p>
+          <span>$22.58USD</span>
+        </p>
+      </div>
+      <button>ADD TO CART</button>
+      <p>
+        También conocida como vitamina B3 y nicotinamida, la niacinamida es una
+        vitamina soluble en agua que trabaja con las sustancias naturales de la
+        piel para ayudar a minimizar visiblemente los poros dilatados, mejorar
+        el tono desigual de la piel, suavizar las líneas finas y las arrugas,
+        disminuir la opacidad y fortalecer una superficie debilitada.
+      </p>
+      <p>
+        Nuestro serum de NIACINAMIDA ayuda a mejorar la apariencia de los poros
+        dilatados, el tono irregular de la piel y las manchas. La niacinamida es
+        perfecta para piel grasa y pieles propensas a manchas, así como las que
+        presentan enrojecimiento
+      </p>
+      <ul>
+        <li>Refuerza la barrera protectora de la piel</li>
+        <li>Ayuda a prevenir la pigmentación y bloquearla</li>
+        <li>Es antioxidante</li>
+        <li>Regula la producción de sebo</li>
+      </ul>
+      <p>
+        <span>Ingredients: </span>
+      </p>
+      <p>
+        <span>
+          Organic Aloe Leaf Juice, Glycerin, Vitamin B3, Emulsifying Wax,
+          Avocado Fruit Oil, Hyaluronic Acid, Vitamin E, Sunflower Seed Oil,
+          Organic Neem Seed Oil, Organic Rosemary Leaf Extract, Organic
+          Sunflower Seed Oil, Xanthan Gum, Phenoxyethanol, Tetrasodium Glutamate
+          Diacetate</span
+        >
+      </p>
+    </div>
+  </div>
 </template>
 
 <script setup>
@@ -90,4 +63,12 @@ const { link, to } = defineProps({
 </script>
 
 <style>
+.product {
+  display: flex;
+  justify-content: start;
+}
+.image {
+  width: 20%;
+  height: 40%;
+}
 </style>
