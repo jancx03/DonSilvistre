@@ -70,10 +70,9 @@ const { link, to } = defineProps({
   flex-flow: row nowrap;
   flex-basis: auto;
   flex: 1 2;
-
 }
 .image {
-  max-width: 100%;
+  max-width: 90%;
 }
 
 .image-container {
