@@ -7,7 +7,7 @@
 
 <style scoped>
 .input {
-  width: 21rem;
+  width: 20vw;
   padding-left: 1rem;
   border: 1px solid black;
   border-right: none;
@@ -25,9 +25,9 @@
 
 }
 
-@media all and (max-width: 768px) {
-  .innput {
-    width: 13rem;
+@media all and (max-width: 1024px) {
+  .input {
+    width: 30vw;
   }
 }
 </style>
