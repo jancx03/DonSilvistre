@@ -62,7 +62,7 @@ const { link, to } = defineProps({
 });
 </script>
 
-<style>
+<style scoped>
 .product {
   display: inline-flex;
   flex-direction: row;
