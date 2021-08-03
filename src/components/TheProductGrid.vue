@@ -1,9 +1,13 @@
 <template>
+<div class="products-title">
+  <p>FEATURED PRODUCTS</p>
+</div>
   <section class="products">
     <div class="product" v-for="product in products" :key="product.name">
       <BaseProductCard :name="product.name" :price="product.price" :image="product.image" />
     </div>
   </section>
+
 </template>
 
 <script setup>
@@ -11,6 +15,14 @@ import products from '/src/mockProducts.js'
 </script>
 
 <style scoped>
+.products-title {
+  width: 100%;
+  text-align: center;
+  margin: 5rem 0;
+  font-size: 1.5rem;
+  letter-spacing: .1rem;
+}
+
 .products {
   display: inline-grid;
   grid-auto-rows: 1fr;

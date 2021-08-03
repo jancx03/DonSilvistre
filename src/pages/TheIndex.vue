@@ -9,10 +9,7 @@
     <BaseGrid />
   </div>
   <div>
-    <TheProductTitle />
-  </div>
-  <div>
-    <NewProductGrid />
+    <TheProductGrid />
   </div>
 </template>
 
@@ -22,7 +19,7 @@ import TheModal from "/src/components/TheModal.vue";
 import TheTestimonials from "/src/components/TheTestimonials.vue";
 import BaseGrid from "/src/components/BaseGrid.vue";
 import TheProductTitle from "/src/components/TheProductTitle.vue";
-import NewProductGrid from "/src/components/NewProductGrid.vue";
+import TheProductGrid from "/src/components/TheProductGrid.vue";
 </script>
 <style scoped>
 .middle {

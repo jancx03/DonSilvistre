@@ -10,7 +10,7 @@ export default {};
 
 <style scoped>
 h2 {
-  font-size: 0.9375em;
+  font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin: 0 0 17.5px;

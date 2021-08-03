@@ -66,8 +66,7 @@ export default {};
 }
 p {
   color: #788188;
-  margin: 0 0 19.44444px;
-  font-size: 1.10938em;
+  font-size: 1.1rem;
   font-weight: 400;
   font-style: normal;
 }
