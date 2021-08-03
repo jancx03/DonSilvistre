@@ -4,8 +4,7 @@
   </div>
 </template>
 
-<script>
-export default {};
+<script setup>
 import BaseTestimonial from "/src/components/BaseTestimonial.vue";
 import { ref } from "vue";
 

@@ -13,12 +13,14 @@
         fill-rule="evenodd"
       ></path>
     </svg>
-    <p>{{ (testimonials, name) }}</p>
+    <p>{{ testimonials }}</p>
+    <p>{{ name }}</p>
   </div>
 </template>
 
-<script>
-export default {};
+<script setup>
+import {defineProps} from 'vue'
+
 const { testimonials, name } = defineProps({
   testimonials: {
     type: String,
