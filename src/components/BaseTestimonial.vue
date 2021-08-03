@@ -13,13 +13,34 @@
         fill-rule="evenodd"
       ></path>
     </svg>
-    <p>Best body oil, love the fragrance, very hydrating and calming.</p>
+    <p>{{ (testimonials, name) }}</p>
   </div>
 </template>
 
 <script>
 export default {};
+const { testimonials, name } = defineProps({
+  testimonials: {
+    type: String,
+    required: true,
+  },
+  name: {
+    type: String,
+    required: true,
+  },
+});
 </script>
 
-<style>
+<style scoped>
+p {
+  color: #788188;
+  margin: 0 0 19.44444px;
+  font-size: 1.10938em;
+  font-weight: 400;
+  font-style: normal;
+}
+.small {
+  width: 1.2rem;
+  line-height: 1.5;
+}
 </style>
