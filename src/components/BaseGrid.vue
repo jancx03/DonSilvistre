@@ -7,6 +7,7 @@
 <script setup>
 import BaseTestimonial from "/src/components/BaseTestimonial.vue";
 import { ref } from "vue";
+import { defineProps } from "vue";
 
 const name = ref("Julio Cesar");
 
